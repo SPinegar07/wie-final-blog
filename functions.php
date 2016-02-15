@@ -25,7 +25,7 @@ function blank_widgets_init() {
     register_sidebar( array(
         'name' => ('Footer Widget Two'),
         'id' => 'footer-widget-two',
-        ''description' => 'Second widget for our footer', 
+        'description' => 'Second widget for our footer', 
         'before_widget' => '<div class="widget-footer">', 
         'after_widget' => '</div>',
         'before_title' => '<h2>',
