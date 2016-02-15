@@ -13,3 +13,5 @@ Text Domain:
     font-size: 14px;
     line-height: 16px;
 }
+
+@import url("css/skeleton.css");
