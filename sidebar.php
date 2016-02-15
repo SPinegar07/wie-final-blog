@@ -8,8 +8,7 @@
 </head>
 <body>
     <div class="container">
-       <h3>Sidebar Text</h3>
-            <p>This is the sidebar content to put in here.</p>
+       <?php dynamic_sidebar('first-widget'); ?>
 </div>
 </body>
 
