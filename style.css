@@ -16,6 +16,7 @@ Text Domain:
 
 @import url("css/skeleton.css");
 
+/* Header Styling */
 h1, h2, h3, h4, h5, h6 {
     color: blue;
 }
@@ -41,4 +42,28 @@ h5 {
 }
 h6 {
     font-size: 1.0rem;
+}
+/* Menu Styling */
+.blank-menu-header {
+    text-align: right;
+    margin-top: 40px;
+}
+.blank-menu-header ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none; 
+}
+.blank-menu-header li {
+    display: inline;
+}
+.blank-menu-header ul li a {
+    text-decoration:none;  
+    margin: 4px;
+    padding: 5px 0px 5px 40px; 
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.blank-menu-header ul li a:hover {
+    color: #cccccc;
 }

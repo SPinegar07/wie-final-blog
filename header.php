@@ -15,6 +15,15 @@
                     <p><?php bloginfo('description'); ?></p>
                 </div>
             </header>
+            <!-- Add Menu Here -->
+            <div class="row">
+                <div class="twelve columns">
+                    <?php wp_nav_menu(array(
+                        'sort_column' => 'menu_order', 
+                        'container_class' => 'blank-menu-header'
+                        ));?>
+                </div>
+</div>
 </div>
 </body>
 
