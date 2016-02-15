@@ -8,22 +8,13 @@
 </head>
 <body>
 	<div class="container">
-            <header class="row">
-                <div class="twelve columns">
-                    <h1>Blank WordPress Template</h1>
-                    <p>This is my WordPress template.</p>
-                </div>
-            </header>
+		<?php get_header(); ?>
             <section class="row">
                 <div class="twelve columns">
                     <p>Body content goes here.</p>
                 </div>
             </section>
-            <footer class="row">
-                <div class="twelve columns">
-                    <p>Footer content goes here.</p>
-                </div>
-            </footer>
+        <?php get_footer(); ?>
 </div>
 </body>
 
