@@ -11,6 +11,9 @@
 	<div class="container">
             <header class="row">
                 <div class="twelve columns">
+                    <!-- ADD LINK TO HOME_URL -->
+                    <h1><a href="<?php $url = home_url('/'); echo $url; ?>"><?php bloginfo('name'); ?></a></h1>
+                    <p><?php bloginfo('description'); ?></p>
                 </div>
                 <!-- Add Search Form -->
                 <div class="three columns">

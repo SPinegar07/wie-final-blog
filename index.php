@@ -23,6 +23,17 @@
 				            the_excerpt(); 
 				                } // end while
 				            } // end if
+				            <!-- ADD LINK TO THE TITLE -->
+					            <h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+					            <?php 
+					            if ( has_post_thumbnail() ) {
+					                the_post_thumbnail('thumbnail');
+					            }
+					            the_excerpt(); ?>
+					    <p><a href="<?php the_permalink(); ?>">Read More</a></p>
+<?php } // end while
+            } // end if
+        ?>
 				        ?>
                 </div>
             </section>
