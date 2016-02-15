@@ -11,10 +11,12 @@
 	<div class="container">
             <header class="row">
                 <div class="twelve columns">
-                    <h1><?php bloginfo('name'); ?></h1>
-                    <p><?php bloginfo('description'); ?></p>
                 </div>
-            </header>
+                <!-- Add Search Form -->
+                <div class="three columns">
+                    <?php get_search_form(); ?>
+                </div>
+                        </header>
             <!-- Add Menu Here -->
             <div class="row">
                 <div class="twelve columns">

@@ -11,6 +11,8 @@
 		<?php get_header(); ?>
             <section class="row">
                 <div class="twelve columns">
+                	<h1><?php bloginfo('name'); ?></h1>
+                    <p><?php bloginfo('description'); ?></p>
                     <!-- BEGIN LOOP -->
             <?php 
             if ( have_posts() ) {
