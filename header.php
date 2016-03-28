@@ -14,12 +14,13 @@
 </head>
 <body>
     <div class="container">
-            <header class="row">
-                <div class="nine columns columns">
+            <table>
+                <tr>
+                    <td>
                     <!-- ADD LINK TO HOME_URL -->
                     <a href="http://www.kittensunicornsandtacos.com/UFL"><img src="http://www.kittensunicornsandtacos.com/UFL/wp-content/uploads/2016/03/logo.png" width="200" alt="logo"></a>
-                </div>
-                <div class="three columns">
+                </td>
+                <td>
                         <table width="200">
                             <tr>
                                 <td>
@@ -33,6 +34,7 @@
                                 </td>
                             </tr>
                         </table>
+                    </table>
                     </div>
                 </div>
                         </header>
