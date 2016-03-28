@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-       <?php dynamic_sidebar('first-widget'); ?>
+       <?php dynamic_sidebar('sidebar'); ?>
 </div>
 </body>
 
