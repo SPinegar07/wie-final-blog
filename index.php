@@ -19,7 +19,7 @@
         <div class="container">
     <table>
         <tr>
-            <td width="75%">
+            <td width="55%">
 <!-- BEGIN LOOP -->
             <?php if ( have_posts() ) : ?>
             <h2 class="center">Fancy Blog About Web Stuffs</h2>
@@ -39,8 +39,7 @@
 <!-- END LOOP -->
     </td>
 <!-- SIDEBAR -->
-    <td valign="top">
-            <h4>More fun stuff</h4>
+    <td width="350" valign="top">
            <?php get_sidebar(); ?>
    </td>
         </div> <!-- ends container -->
