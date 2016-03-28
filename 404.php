@@ -8,10 +8,15 @@ get_header(); ?>
     include("style.css");
   ?>
 </style>
+<style type="text/css">
+  <?php
+    include("css/skeleton.css");
+  ?>
+</style>
 
     <div class="row">
         <div class="eight columns">
-            <h1>Not Found</h1>
+            <h1>Oh no! Where'd it go?</h1>
             <h2>This is somewhat embarrassing, isn't it?</h2>
             <p>It looks like nothing was found at this location. Maybe try a search?</p>
 
