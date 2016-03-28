@@ -9,7 +9,7 @@
         <div class="container">
             <?php get_header(); ?>
     <section class="row">
-        <div class="twelve columns">
+        <div class="eight columns">
 <!-- BEGIN LOOP -->
             <?php
 				query_posts('cat=group-1');
