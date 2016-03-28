@@ -271,7 +271,7 @@ p {
 }
 ul,
 ol {
-  margin: 0 0 1.5em 3em;
+  margin: 0 0 1em 1em;
 }
 ul {
   list-style: disc;
@@ -284,7 +284,27 @@ ol ol,
 ul ol,
 ol ul {
   margin-bottom: 0;
-  margin-left: 1.5em;
+  margin-left: .5em;
+}
+li {
+  padding: 0 0 40px 5px;
+  margin: 0 0 40px 5px;
+  background-image: url(http://www.kittensunicornsandtacos.com/UFL/wp-content/uploads/2016/03/bubble.png);
+  background-repeat: no-repeat;
+}
+li a    {
+    text-shadow: 2px 2px 8px #555555;
+    font-size: 1.30rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
+    padding-left: 4rem;
+    padding-top:6rem;
+    margin-left:1rem;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    text-decoration:none;
+    color: #000000;
+    text-align: center;
+    margin: auto;
 }
 dt {
   font-weight: bold;
