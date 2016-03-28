@@ -9,12 +9,11 @@ Text Domain:
 */
 
 *{
-    color: #000000;
-    font-size: 14px;
-    line-height: 16px;
+    margin:0;
+    padding:0;
 }
 
-@import url("css/skeleton.css");
+@import url('skeleton.css');
 
 /*background */
 body    { 
@@ -22,7 +21,19 @@ body    {
 
 /* Header Styling */
 h1, h2, h3, h4, h5, h6 {
-    color: blue;
+    color: white;
+}
+
+p   {
+    color: #fff;
+}
+
+a   {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
 }
 
 h2, h4, h6 {
@@ -31,21 +42,27 @@ h2, h4, h6 {
 
 h1 {
     font-size: 2.4rem;
+    font-family: 'Raleway', sans-serif;
 }
 h2 {
     font-size: 2.0rem;
+    font-family: 'Raleway', sans-serif;
 }
 h3 {
     font-size: 1.8rem;
+    font-family: 'Raleway', sans-serif;
 }
 h4 {
     font-size: 1.5rem;
+    font-family: 'Raleway', sans-serif;
 }
 h5 {
     font-size: 1.2rem;
+    font-family: 'Raleway', sans-serif;
 }
 h6 {
     font-size: 1.0rem;
+    font-family: 'Raleway', sans-serif;
 }
 /* Menu Styling */
 .blank-menu-header {
@@ -70,4 +87,66 @@ h6 {
 }
 .blank-menu-header ul li a:hover {
     color: #cccccc;
+}
+
+/* Post Image */
+/**Image holder keeps image on the left**/
+.post-image{
+    margin: 0 10px 0 0;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+.post-image img{
+    max-width:100%;
+    height:100%;
+}
+.post-featured {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/** Keeps the content data on the right**/
+.post-data {
+    position: relative;
+    overflow: hidden;
+    margin-top: 0px;
+}
+.post-meta{
+    padding-top:3px;
+}
+.post-meta .posted-on, .comments{
+    font-weight:600;
+}
+.post-meta ul li, .post-tags ul li{
+    display:inline-block;
+    padding:5px 0;
+}
+.post-tags{
+    margin-top:20px;
+    margin-bottom:20px;
+    border-bottom:1px solid #ddd;
+}
+.theauthor a, 
+.thecategory a, 
+.thetags a, 
+.post-readmore,
+.left-previous-post,
+.right-next-post,
+.nav-previous a,
+.nav-next a, input[type="submit"]{
+    color: #fff;
+    padding:2px;
+    border-radius: 0.3em;
+    -o-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    background: #A43D14;
+    border: 2px solid #A43D14;
+}
+.post-readmore{
+    margin-top:10px;
+}
+.post-excerpt{
+    margin-top: 5px;
 }
