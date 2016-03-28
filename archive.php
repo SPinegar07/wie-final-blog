@@ -1,7 +1,14 @@
+
 <?php 
 /* Template Name: Archive Page */
 
 get_header(); ?>
+<!-- Sylesheet -->
+        <style type="text/css">
+  <?php
+    include("style.css");
+  ?>
+</style>
 
 <div class="row">
     <div class="twelve columns">
@@ -18,22 +25,8 @@ get_header(); ?>
                 </h2>
                 <?php the_excerpt(); ?>
             <?php endwhile; ?> <!-- End Loop -->
-        <?php endif; ?>
         <?php else: ?>
             <p>Sorry, no posts matched your criteria.</p>
         <?php endif; ?>
     </div>
 </div>
-<div class="row">
-    <div class="twelve columns">
-        <h2>Archives by Month:</h2>
-        <ul>
-            <?php wp_get_archives('type=monthly'); ?>
-        </ul>
-        <h2>Archives by Category:</h2>
-        <ul>
-             <?php wp_list_categories(); ?>
-        </ul>
-    </div>
-</div>
-<?php get_footer(); ?>
