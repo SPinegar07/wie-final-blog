@@ -35,6 +35,7 @@
                 <?php the_excerpt(); ?>
             <?php endwhile; ?> <!-- End Loop -->
         <?php endif; ?>
+        <p><a href="http://www.kittensunicornsandtacos.com/UFL/category/group-1/">View More</a>
     </div>
 <!-- END LOOP -->
     </td>
@@ -43,5 +44,6 @@
            <?php get_sidebar(); ?>
    </td>
         </div> <!-- ends container -->
+        <?php get_footer(); ?>
     </body>
 </html>
