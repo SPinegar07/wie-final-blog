@@ -1,14 +1,7 @@
-
 <?php 
 /* Template Name: Archive Page */
 
 get_header(); ?>
-<!-- Sylesheet -->
-        <style type="text/css">
-  <?php
-    include("style.css");
-  ?>
-</style>
 
 <div class="row">
     <div class="twelve columns">
@@ -26,7 +19,7 @@ get_header(); ?>
                 <?php the_excerpt(); ?>
             <?php endwhile; ?> <!-- End Loop -->
         <?php else: ?>
-            <p>Sorry, no posts matched your criteria.</p>
+            <p>Sorry, we couldn't find what you were looking for. Try again!</p>
         <?php endif; ?>
     </div>
 </div>
