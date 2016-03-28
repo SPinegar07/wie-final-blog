@@ -10,6 +10,11 @@
     include("style.css");
   ?>
 </style>
+<style type="text/css">
+  <?php
+    include("css/skeleton.css");
+  ?>
+</style>
 </head>
 <body>
 	<div class="container">
