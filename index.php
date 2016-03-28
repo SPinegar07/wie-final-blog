@@ -11,13 +11,12 @@
     <section class="row">
         <div class="twelve columns">
 <!-- BEGIN LOOP -->
-            <?php 
-            if ( have_posts() ) {
-                while ( have_posts() ) {
-                    the_post(); 
-                } // end while
-            } // end if
-            ?>
+            <?php
+				query_posts('cat=group-1');
+				while (have_posts()) : the_post();
+				the_content();
+				endwhile;
+?>
 <!-- END LOOP -->
         </div>
     </section>
