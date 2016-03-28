@@ -15,7 +15,7 @@ Text Domain:
 }
 
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:900);
-@import url('skeleton.css');
+@import url('css/skeleton.css');
 
 html {
   margin: 0;
