@@ -12,19 +12,23 @@
 </style>
 </head>
 <body>
-            <footer class="row">
-    <div class="four columns">
-<?php dynamic_sidebar('footer-widget-one'); ?>
-</div>
-    <div class="four columns">
-<?php dynamic_sidebar('footer-widget-two'); ?>
-</div>
-    <div class="four columns">
-<?php dynamic_sidebar('footer-widget-three'); ?>
-</div>
-</footer>
-</div> 
-<?php wp_footer(); ?>
+	<footer>
+	    <div class="twelve columns">
+	    	<table>
+	    		<tr>
+	    			<td>
+	    				<a href="http://www.kittensunicornsandtacos.com/UFL/">Home</a>
+	    				</td>
+	    			<td>
+	    				<p>Copyright 2016</p>
+	    			</td>
+	    			<td>
+	    				<a href="mailto:SPinegar07@ufl.edu">Contact Us</a>
+	    			</td>
+	</div>
+	</footer>
+	</div> 
+	<?php wp_footer(); ?>
 
 </body>
 </html>
